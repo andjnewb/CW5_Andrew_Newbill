@@ -4,11 +4,11 @@ using System.Text;
 
 namespace CW5_Andrew_Newbill
 {
-    class BearAdapter : IToyBear
+    public class BearAdapter : IToyBear
     {
         IBear bear;
 
-        BearAdapter(IBear bear)
+        public BearAdapter(IBear bear)
         {
             this.bear = bear;
         }

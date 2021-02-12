@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CW5_Andrew_Newbill
 {
-    class Bear : IBear
+    class GrizzlyBear : IBear
     {
         public void maul()
         {

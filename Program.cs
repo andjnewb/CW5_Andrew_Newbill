@@ -6,7 +6,17 @@ namespace CW5_Andrew_Newbill
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GrizzlyBear grizzly = new GrizzlyBear();
+            TeddyBear teddy = new TeddyBear();
+            BearAdapter bearAdapter = new BearAdapter(grizzly);
+
+            grizzly.hibernate();
+            grizzly.maul();
+
+
+
+
+
         }
     }
 }
